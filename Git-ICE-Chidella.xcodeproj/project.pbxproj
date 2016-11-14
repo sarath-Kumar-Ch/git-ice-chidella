@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		41F243601DDA46C500D44815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F2435F1DDA46C500D44815 /* AppDelegate.swift */; };
-		41F243621DDA46C500D44815 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F243611DDA46C500D44815 /* FirstViewController.swift */; };
-		41F243641DDA46C500D44815 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F243631DDA46C500D44815 /* SecondViewController.swift */; };
+		41F243621DDA46C500D44815 /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F243611DDA46C500D44815 /* EhVC.swift */; };
+		41F243641DDA46C500D44815 /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F243631DDA46C500D44815 /* BeeVC.swift */; };
 		41F243671DDA46C500D44815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F243651DDA46C500D44815 /* Main.storyboard */; };
 		41F243691DDA46C500D44815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F243681DDA46C500D44815 /* Assets.xcassets */; };
 		41F2436C1DDA46C500D44815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F2436A1DDA46C500D44815 /* LaunchScreen.storyboard */; };
+		41F243741DDA488400D44815 /* SeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F243731DDA488400D44815 /* SeaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41F2435C1DDA46C500D44815 /* Git-ICE-Chidella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-ICE-Chidella.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F2435F1DDA46C500D44815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41F243611DDA46C500D44815 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		41F243631DDA46C500D44815 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		41F243611DDA46C500D44815 /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
+		41F243631DDA46C500D44815 /* BeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeVC.swift; sourceTree = "<group>"; };
 		41F243661DDA46C500D44815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41F243681DDA46C500D44815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F2436B1DDA46C500D44815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41F2436D1DDA46C500D44815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F243731DDA488400D44815 /* SeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeaVC.swift; path = ../SeaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				41F2435F1DDA46C500D44815 /* AppDelegate.swift */,
-				41F243611DDA46C500D44815 /* FirstViewController.swift */,
-				41F243631DDA46C500D44815 /* SecondViewController.swift */,
+				41F243611DDA46C500D44815 /* EhVC.swift */,
+				41F243631DDA46C500D44815 /* BeeVC.swift */,
+				41F243731DDA488400D44815 /* SeaVC.swift */,
 				41F243651DDA46C500D44815 /* Main.storyboard */,
 				41F243681DDA46C500D44815 /* Assets.xcassets */,
 				41F2436A1DDA46C500D44815 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F243641DDA46C500D44815 /* SecondViewController.swift in Sources */,
+				41F243741DDA488400D44815 /* SeaVC.swift in Sources */,
+				41F243641DDA46C500D44815 /* BeeVC.swift in Sources */,
 				41F243601DDA46C500D44815 /* AppDelegate.swift in Sources */,
-				41F243621DDA46C500D44815 /* FirstViewController.swift in Sources */,
+				41F243621DDA46C500D44815 /* EhVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
