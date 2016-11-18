@@ -19,7 +19,10 @@ class BeeVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @IBAction func clickME(sender:AnyObject){
+        // arey em add cheyalo teledhu so commit lo petta.. neeku nachindi add cheskoo
+        //enjoy have fun.....
+    }
 
 }
 
